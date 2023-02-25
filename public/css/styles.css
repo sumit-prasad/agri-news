@@ -1,0 +1,124 @@
+:root {
+    --main-bg-color: #EEEEEE;
+    --secondary-color: #DDDDDD;
+    --swamp-green: #B7B78A;
+    --glade-green: #658864;
+}
+
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Quicksand', sans-serif; 
+*/
+
+html, body {
+    background-color: var(--main-bg-color);
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--secondary-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--glade-green);
+    border-radius: 20px;
+    border: 1px solid var(--glade-green);
+}
+
+/* Agri Logo */
+
+.agri-head {
+    margin-bottom: 0.4rem;
+}
+
+.agri-head-logo {
+    font-family: 'Cinzel', cursive;
+    font-size: 1.8rem;
+    color: var(--glade-green);
+    text-decoration: none;
+}
+
+.agri-head-logo:hover {
+    color: var(--swamp-green);
+}
+
+/* Nav links */
+
+.nav-links a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--swamp-green);
+}
+
+.line-break {
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80%;
+    -webkit-box-shadow: 0px 15px 29px -14px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 15px 29px -14px rgba(0,0,0,0.75);
+    box-shadow: 0px 15px 30px -14px rgba(0,0,0,0.75);
+}
+
+/* Divider */
+
+.divider {
+    height: 3rem;
+    background-color: var(--main-bg-color);
+}
+
+/* Carousel */
+
+.main-carousel {
+    margin-top: 3rem;
+    /* border: 2px solid var(--swamp-green); */
+    border-radius: 10px;
+}
+
+.carousel-inner {
+    border: 1px solid var(--secondary-color);
+    border-radius: 10px;
+}
+
+.carousel-image{
+    filter: brightness(40%);
+}
+
+/* Market */
+.table-color {
+    background-color: var(--secondary-color);
+}
+
+.down {
+    color: rgb(212, 120, 120);
+}
+
+.up {
+    color: rgb(73, 190, 88);
+}
+
+/* Misc  */
+
+.art-head {
+    font-family: 'Cinzel', serif;;
+}
+
+.bottom-article {
+    height: min-content;
+}
+
+.btm-a-head {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+footer a {
+    text-decoration: none;
+}
